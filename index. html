@@ -1,0 +1,80 @@
+02.01 13:01
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Pulau Pandang</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f7fa;
+      color: #333;
+    }
+    nav {
+      background: #0d8ddb;
+      padding: 15px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    header {
+      height: 100vh;
+      background: #000;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    section {
+      padding: 50px;
+      max-width: 800px;
+      margin: auto;
+    }
+    footer {
+      background: #0d1b2a;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+<nav>
+  <a href="#beranda">Beranda</a>
+  <a href="#tentang">Tentang</a>
+  <a href="#galeri">Galeri</a>
+</nav>
+
+<header id="beranda">
+  <h1>Pulau Pandang</h1>
+  <p>Website ini PASTI tampil di Chrome</p>
+</header>
+
+<section id="tentang">
+  <h2>Tentang Pulau Pandang</h2>
+  <p>
+    Pulau Pandang adalah destinasi wisata alam yang indah,
+    dengan pantai yang menawan dan suasana yang tenang.
+  </p>
+</section>
+
+<section id="galeri">
+  <h2>Galeri</h2>
+  <p>(Nanti bisa ditambahkan gambar)</p>
+</section>
+
+<footer>
+  <p>© 2026 Pulau Pandang</p>
+</footer>
+
+</body>
+</html>
